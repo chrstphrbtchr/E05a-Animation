@@ -68,25 +68,25 @@ class MyGame(arcade.Window):
 
         self.player.walk_right_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\santa.png",
                                                                    scale=character_scale, mirrored=True))
-        self.player.walk_right_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\santa.png",
+        self.player.walk_right_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\SaintWalk1.png",
                                                                    scale=character_scale, mirrored=True))
         self.player.walk_right_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\santa.png",
                                                                    scale=character_scale, mirrored=True))
-        self.player.walk_right_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\santa.png",
+        self.player.walk_right_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\SaintWalk2.png",
                                                                    scale=character_scale, mirrored=True))
 
         self.player.walk_left_textures = []
 
         self.player.walk_left_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\santa.png",
                                                                   scale=character_scale))
-        self.player.walk_left_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\santa.png",
+        self.player.walk_left_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\SaintWalk2.png",
                                                                   scale=character_scale))
         self.player.walk_left_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\santa.png",
                                                                   scale=character_scale))
-        self.player.walk_left_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\santa.png",
+        self.player.walk_left_textures.append(arcade.load_texture("PNG\Voxel pack\Retina\Santa\SaintWalk1.png",
                                                                   scale=character_scale))
 
-        self.player.texture_change_distance = 20
+        self.player.texture_change_distance = 45
 
         self.player.center_x = SCREEN_WIDTH // 2
         self.player.center_y = SCREEN_HEIGHT // 2
